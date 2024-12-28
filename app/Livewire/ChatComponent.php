@@ -42,8 +42,6 @@ class ChatComponent extends Component
         $this->user = User::whereId($user_id)->first();
     }
 
-
-
     public function sendMessage()
     {
         $chatMessage = new Message();
